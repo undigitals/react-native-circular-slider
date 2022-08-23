@@ -48,21 +48,21 @@ function getGradientId(index) {
 
 export default class CircularSlider extends PureComponent {
 
-  static propTypes = {
-    onUpdate: PropTypes.func.isRequired,
-    startAngle: PropTypes.number.isRequired,
-    angleLength: PropTypes.number.isRequired,
-    segments: PropTypes.number,
-    strokeWidth: PropTypes.number,
-    radius: PropTypes.number,
-    gradientColorFrom: PropTypes.string,
-    gradientColorTo: PropTypes.string,
-    showClockFace: PropTypes.bool,
-    clockFaceColor: PropTypes.string,
-    bgCircleColor: PropTypes.string,
-    stopIcon: PropTypes.element,
-    startIcon: PropTypes.element,
-  }
+//   static propTypes = {
+//     onUpdate: PropTypes.func.isRequired,
+//     startAngle: PropTypes.number.isRequired,
+//     angleLength: PropTypes.number.isRequired,
+//     segments: PropTypes.number,
+//     strokeWidth: PropTypes.number,
+//     radius: PropTypes.number,
+//     gradientColorFrom: PropTypes.string,
+//     gradientColorTo: PropTypes.string,
+//     showClockFace: PropTypes.bool,
+//     clockFaceColor: PropTypes.string,
+//     bgCircleColor: PropTypes.string,
+//     stopIcon: PropTypes.element,
+//     startIcon: PropTypes.element,
+//   }
 
   static defaultProps = {
     segments: 5,
